@@ -1,0 +1,17 @@
+/* 전체 선택자 - 마진과 패딩을 0으로 세팅 */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Nanum+Pen+Script&display=swap');
+*{margin: 0px; padding: 0px;}
+#contariner{width: 1000px;margin:0 auto;}
+/* header 스타일 */
+header{height: 80px;background-color: green;}
+header #logo{width: 200px;float: left; padding: 15px 20px;}
+header #logo h1{color: white; font-family:'Gill Sans';}
+header #logo h1:hover{color: #2fd2fd;}
+header nav{width: 700px; float:right}
+header nav ul{list-style: none;text-align: right;margin-right: 50px;}
+header nav ul li{display: inline-block;margin: 20px 15px;padding: 10px;}
+header nav ul li a{color: white;text-decoration: none;}
+header nav ul li a:hover{color: #2fd2fd;}
+/* section 스타일 */
+section{margin: 20px;}
+section h2{font-family:'Nanum pen Script',cursive; font-size: 3em;}
