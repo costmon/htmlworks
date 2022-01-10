@@ -54,3 +54,5 @@ bit(비트)- binary dihit - 2진수 (0~255)
 윈도우 cmd 명령어
 cd c:/ - c루트폴더 이동
 mkdir - 폴더 만들기
+
+주소: https://github.com/kiyongee2
