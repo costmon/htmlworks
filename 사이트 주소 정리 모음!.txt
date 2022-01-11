@@ -1,0 +1,17 @@
+홈페이지(사이트)의 주소 - 도메인(Domain)
+http://cafe24.com - 도메인
+도메인 주소- 세계적으로 관리 기관
+우리나라 관리기관 - krnic
+https://xn--3e0bx5euxnjje69i70af08bea817g.xn--3e0b707e/
+마이닷홈 홈페이지
+costmon.dothome.co.kr
+호스팅 서버 임대 > FTP프로그램 업로드(R디스크,파일질라) 
+1.검색창에 "파일질라" 검색후 다운로드
+2.설치완료후 호스트에 닷홈주소, 사용자명,비번을 넣고 빠른연결 클릭!
+3.html파일을 클릭하여 들어간뒤에 복사 붙여넣기로 넣어주면 끝!
+- 파일을 배포: 업로드
+
+
+
+URL
+https://hosting.cafe24.com/?controller=product_basic_main 
