@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 클래스 선택자</title>
+    <style>
+        form{width: 600px; margin: 20 auto;}
+        fieldset{margin-bottom: 20px;}
+        input:disabled{
+            background: #ddd;
+            border: 1px solid #bbb;
+        }
+        input:checked + span{
+            color: blue;
+            /* '+' 기호는 연결 선택자임 */
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <label>이름<input type="text" disabled></label>
+        </fieldset>
+        
+            <label><input type="radio" name="subject" value="speaking"><spen>회화</spen>
+            </label>
+            <label><input type="radio" name="subject" value="grammer"><spen>문법</spen>
+            </label>
+            <label><input type="radio" name="subject" value="writing"><spen>작문</spen>
+            </label>
+            <!-- radio 는 1개만 선택 -->
+    </fieldset>
+    </form>
+</body>
+</html>

@@ -4,50 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>지원서 폼</title>
+    <title>개발자 지원서 폼</title>
     <link rel="stylesheet" href="./css/front.css">
 </head>
 <body>
-    <h1>프런트앤드 개발자 지원서</h1>
-    <p>HTML,CSS,자바스크립트의 기술을 이해하고 실무 경험이 있는 분을<br>
-       찾습니다.</p>
-       <hr>
-       <h4>개인 정보</h4>
-       <ul id="info">
-            <li>
-                <label for="name">이름</label>
-                <input type="text" name="name" id="name">
-            </li>
-            <li>
-                <label for="phone">연락처</label>
-                <input type="tel" name="phone" id="phone">
-            </li>
-       </ul>
-       <h4>지원 분야</h4>
-       <ul>
-           <li>
-               <label><input type="radio" name="field" value="">웹 퍼블리싱</label>
-           </li>
-           <li>
-               <label><input type="radio" name="field" value="app">웹 애플리캐이션 개발</label>
-           </li>
-           <li>
-               <label><input type="radio" name="field" value="eng">개발 환경 개선</label>
-           </li>
-       </ul>
-       <h4>지원동기</h4>
-       <textarea name="memo" cols="60" rows="5"
-                 placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+    <div id="container">
+        <h1>프런트엔드 개발자 지원서 </h1>
+        <p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+        <hr>
+        <form>
+            <h4>개인정보</h4>
+            <ul id="info">
+                 <li>
+                    <label for="name"> 이름 </label>
+                    <input type="text" id="name" name="name"
+                           autofocus placeholder="공백없이 입력하세요">
+                </li>
+                <li>
+                    <label for="phone"> 연락처 </label>
+                    <input type="tel" id="phone" name="phone">
+                 </li>
+            </ul>
+            <h4>지원 분야</h4>
+            <ul>
+                <li>
+                    <label><input type="radio" name="field" value="pub"> 웹 퍼블리싱</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="field" value="app"> 웹 애플리케이션 개발</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="field" value="eng"> 개발 환경 개선</label>
+                </li>
+            </ul>
+            <h4>지원동기</h4>
+            <textarea name="memo" cols="60" rows="5" 
+                      placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
 
-       <div class="button">
-           <button type="submit">점수하기</button>
-           <button type="reset">다시쓰기</button>
-       </div>
+            <div class="button">
+                <!-- <input type="submit" value="접수하기">
+                <input type="reset" value="다시쓰기"> -->
+                <button type="submit">접수하기</button>
+                <button type="reset">다시쓰기</button>
+            </div>
         </form>
     </div>
-
-
-       
-
 </body>
 </html>
