@@ -59,6 +59,14 @@ git 허브 받는법!
 윈도우 cmd 명령어
 cd c:/ - c루트폴더 이동
 mkdir - 폴더 만들기
+dir - 폴더 확인
+exit() - 종료
+
 
 주소: https://github.com/kiyongee2
 가져올때: git clone "주소"
+파일질라 연결 호스트 주소:costmon.dothome.co.kr
+
+파이썬 열고,닫기
+
+열기:명령프롬프트(python) 닫기( exit() )
